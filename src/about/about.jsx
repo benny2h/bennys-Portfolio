@@ -21,6 +21,14 @@ function About() {
 
     const timeline = [
         {
+            period: '2022 – 2025',
+            title: 'Werkstudent & Trainer',
+            place: 'SSV Jahn Regensburg',
+            detail: 'Drei Jahre im Profifußball-Verein',
+            icon: '⚽',
+            tag: 'Verein',
+        },
+        {
             period: '10/2023 – vsl. 09/2027',
             title: 'Bachelor Wirtschaftsinformatik',
             place: 'OTH Regensburg',
@@ -28,10 +36,10 @@ function About() {
             tag: 'Studium',
         },
         {
-            period: 'seit 08/2025',
-            title: 'Werkstudent Softwareentwicklung',
+            period: 'seit 09/2025',
+            title: 'Praktikant → Werkstudent',
             place: 'IMPECT GmbH, Köln',
-            detail: 'Softwarelösungen für Fußballdatenanalyse',
+            detail: 'Praktikum (09/2025 – 01/2026), seither Werkstudent — Softwarelösungen für Fußballdatenanalyse',
             icon: '👨🏼‍💻',
             tag: 'Job',
         },

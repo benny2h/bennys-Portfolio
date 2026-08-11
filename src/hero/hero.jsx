@@ -55,6 +55,17 @@ function Hero() {
                         <span className="ml-1 inline-block h-[1em] w-0.5 animate-blink bg-accent align-middle" />
                     </span>
                 </div>
+
+                <p
+                    className="mt-2 max-w-md font-inter text-sm font-medium leading-relaxed text-neutral-300 transition-[opacity,transform] duration-700 ease-out sm:text-base"
+                    style={{
+                        opacity: inView ? 1 : 0,
+                        transform: inView ? 'translateY(0)' : 'translateY(12px)',
+                        transitionDelay: '420ms',
+                    }}
+                >
+                    Wirtschaftsinformatik-Student — seit 2022 durchgehend zwischen Profifußball und Software.
+                </p>
             </div>
 
             {/* scroll indicator */}
